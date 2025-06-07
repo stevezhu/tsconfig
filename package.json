@@ -2,6 +2,15 @@
   "name": "@stzhu/tsconfig",
   "version": "0.1.0",
   "description": "Shared config for TypeScript",
+  "keywords": [
+    "typescript",
+    "tsconfig"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevezhu/tsconfig.git"
+  },
+  "author": "Steve Zhu <4130171+stevezhu@users.noreply.github.com>",
   "files": [
     "tsconfig.*.json"
   ],
@@ -14,5 +23,8 @@
     "prettier": "^3.5.3",
     "prettier-plugin-packagejson": "^2.5.15"
   },
-  "packageManager": "pnpm@10.11.1"
+  "packageManager": "pnpm@10.11.1",
+  "engines": {
+    "node": ">=18"
+  }
 }
