@@ -1,5 +1,6 @@
 {
   "name": "@stzhu/tsconfig",
+  "version": "0.1.0",
   "description": "Shared config for TypeScript",
   "files": [
     "tsconfig.*.json"
