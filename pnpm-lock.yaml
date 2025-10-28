@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@stzhu/prettier-plugin-tsconfig':
-        specifier: ^0.5.0
-        version: 0.5.0(prettier@3.6.2)
+        specifier: ^0.7.0
+        version: 0.7.0(prettier@3.6.2)
       prettier:
         specifier: ^3.5.3
         version: 3.6.2
@@ -24,21 +24,21 @@ packages:
     resolution: {integrity: sha512-qMlSxKbpRlAridDExk92nSobyDdpPijUq2DW6oDnUqd0iOGxmQjyqhMIihI9+zv4LPyZdRje2cavWPbCbWm3eA==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/helper-validator-identifier@7.27.1':
-    resolution: {integrity: sha512-D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow==}
+  '@babel/helper-validator-identifier@7.28.5':
+    resolution: {integrity: sha512-qSs4ifwzKJSV39ucNjsvc6WVHs6b7S03sOh2OcHF9UHfVPqWWALUsNUVzhSBiItjRZoLHx7nIarVjqKVusUZ1Q==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/types@7.28.2':
-    resolution: {integrity: sha512-ruv7Ae4J5dUYULmeXw1gmb7rYRz57OWCPM57pHojnLq/3Z1CK2lNSLTCVjxVk1F/TZHwOZZrOWi0ur95BbLxNQ==}
+  '@babel/types@7.28.5':
+    resolution: {integrity: sha512-qQ5m48eI/MFLQ5PxQj4PFaprjyCTLI37ElWMmNs0K8Lk3dVeOdNpB3ks8jc7yM5CDmVC73eMVk/trk3fgmrUpA==}
     engines: {node: '>=6.9.0'}
 
   '@pkgr/core@0.2.9':
     resolution: {integrity: sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@stzhu/prettier-plugin-tsconfig@0.5.0':
-    resolution: {integrity: sha512-Bx+Ao7Nhq0jUNJVw3CewFxE1eZYBbUoyy7UvqsjeG5q4v2ka/RL5C7TAW129ZpetKNyKlGpJ91rG4XAlSC1bRA==}
-    engines: {node: '>=18'}
+  '@stzhu/prettier-plugin-tsconfig@0.7.0':
+    resolution: {integrity: sha512-s3ttWNsqJZX0HIhiyc2F/0VHHK9ElvmXBa5eVY2VUoXPWPiAMLqJuvYP6Z9dsqPej4gYyaNtdss7Kh2NA2P4gA==}
+    engines: {node: '>=20'}
     peerDependencies:
       prettier: ^3.x
 
@@ -108,18 +108,18 @@ snapshots:
 
   '@babel/helper-string-parser@7.27.1': {}
 
-  '@babel/helper-validator-identifier@7.27.1': {}
+  '@babel/helper-validator-identifier@7.28.5': {}
 
-  '@babel/types@7.28.2':
+  '@babel/types@7.28.5':
     dependencies:
       '@babel/helper-string-parser': 7.27.1
-      '@babel/helper-validator-identifier': 7.27.1
+      '@babel/helper-validator-identifier': 7.28.5
 
   '@pkgr/core@0.2.9': {}
 
-  '@stzhu/prettier-plugin-tsconfig@0.5.0(prettier@3.6.2)':
+  '@stzhu/prettier-plugin-tsconfig@0.7.0(prettier@3.6.2)':
     dependencies:
-      '@babel/types': 7.28.2
+      '@babel/types': 7.28.5
       prettier: 3.6.2
 
   detect-indent@7.0.1: {}
