@@ -10,13 +10,13 @@ importers:
     devDependencies:
       '@stzhu/prettier-plugin-tsconfig':
         specifier: ^0.7.0
-        version: 0.7.0(prettier@3.6.2)
+        version: 0.7.0(prettier@3.7.4)
       prettier:
         specifier: ^3.5.3
-        version: 3.6.2
+        version: 3.7.4
       prettier-plugin-packagejson:
         specifier: ^2.5.15
-        version: 2.5.19(prettier@3.6.2)
+        version: 2.5.19(prettier@3.7.4)
 
 packages:
 
@@ -78,8 +78,8 @@ packages:
       prettier:
         optional: true
 
-  prettier@3.6.2:
-    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
+  prettier@3.7.4:
+    resolution: {integrity: sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -117,10 +117,10 @@ snapshots:
 
   '@pkgr/core@0.2.9': {}
 
-  '@stzhu/prettier-plugin-tsconfig@0.7.0(prettier@3.6.2)':
+  '@stzhu/prettier-plugin-tsconfig@0.7.0(prettier@3.7.4)':
     dependencies:
       '@babel/types': 7.28.5
-      prettier: 3.6.2
+      prettier: 3.7.4
 
   detect-indent@7.0.1: {}
 
@@ -136,14 +136,14 @@ snapshots:
 
   picomatch@4.0.3: {}
 
-  prettier-plugin-packagejson@2.5.19(prettier@3.6.2):
+  prettier-plugin-packagejson@2.5.19(prettier@3.7.4):
     dependencies:
       sort-package-json: 3.4.0
       synckit: 0.11.11
     optionalDependencies:
-      prettier: 3.6.2
+      prettier: 3.7.4
 
-  prettier@3.6.2: {}
+  prettier@3.7.4: {}
 
   semver@7.7.2: {}
 
