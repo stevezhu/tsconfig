@@ -21,8 +21,8 @@
   },
   "devDependencies": {
     "@stzhu/prettier-plugin-tsconfig": "^0.7.0",
-    "prettier": "^3.5.3",
-    "prettier-plugin-packagejson": "^2.5.15"
+    "prettier": "^3.7.4",
+    "prettier-plugin-packagejson": "^2.5.20"
   },
   "packageManager": "pnpm@10.20.0",
   "engines": {
