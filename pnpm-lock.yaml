@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@stzhu/prettier-plugin-tsconfig':
         specifier: ^0.7.0
-        version: 0.7.0(prettier@3.7.4)
+        version: 0.7.1(prettier@3.7.4)
       prettier:
         specifier: ^3.7.4
         version: 3.7.4
@@ -36,8 +36,8 @@ packages:
     resolution: {integrity: sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@stzhu/prettier-plugin-tsconfig@0.7.0':
-    resolution: {integrity: sha512-s3ttWNsqJZX0HIhiyc2F/0VHHK9ElvmXBa5eVY2VUoXPWPiAMLqJuvYP6Z9dsqPej4gYyaNtdss7Kh2NA2P4gA==}
+  '@stzhu/prettier-plugin-tsconfig@0.7.1':
+    resolution: {integrity: sha512-KWYogMC7SToiV1l+UuQS4m7/DEusTS7LIFKsaEepRIT+c4qtQY6qZmJEfZo7bpLuMRLjDKA/+zJGfDNoWynPhQ==}
     engines: {node: '>=20'}
     peerDependencies:
       prettier: ^3.x
@@ -117,7 +117,7 @@ snapshots:
 
   '@pkgr/core@0.2.9': {}
 
-  '@stzhu/prettier-plugin-tsconfig@0.7.0(prettier@3.7.4)':
+  '@stzhu/prettier-plugin-tsconfig@0.7.1(prettier@3.7.4)':
     dependencies:
       '@babel/types': 7.28.5
       prettier: 3.7.4
