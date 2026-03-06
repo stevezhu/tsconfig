@@ -9,13 +9,13 @@ importers:
   .:
     devDependencies:
       '@stzhu/prettier-plugin-tsconfig':
-        specifier: ^0.7.0
+        specifier: ^0.7.1
         version: 0.7.1(prettier@3.8.1)
       prettier:
-        specifier: ^3.7.4
+        specifier: ^3.8.1
         version: 3.8.1
       prettier-plugin-packagejson:
-        specifier: ^3.0.0
+        specifier: ^3.0.2
         version: 3.0.2(prettier@3.8.1)
 
 packages:
