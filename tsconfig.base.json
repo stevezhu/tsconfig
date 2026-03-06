@@ -1,6 +1,5 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "exclude": ["node_modules"],
   "compilerOptions": {
     "exactOptionalPropertyTypes": false,
     "noImplicitOverride": true,
@@ -10,14 +9,15 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "strict": true,
-    "module": "esnext",
-    "moduleResolution": "node",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "noUncheckedSideEffectImports": true,
     "resolveJsonModule": true,
-    "outDir": "dist/",
+    "noEmit": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
-    "target": "ESNext",
+    "target": "esnext",
     "preserveWatchOutput": true,
     "skipLibCheck": true
   },
