@@ -1,0 +1,14 @@
+name: Lint PR
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - edited
+      # - synchronize (if you use required Actions)
+
+jobs:
+  main:
+    uses: stevezhu/actions/.github/workflows/lint-pr-title.yaml@v1
+    permissions:
+      pull-requests: read
