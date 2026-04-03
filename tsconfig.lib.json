@@ -3,6 +3,7 @@
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "allowImportingTsExtensions": true,
+    "module": "preserve",
     "moduleResolution": "bundler"
   },
   "display": "Lib"

@@ -3,7 +3,9 @@
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "allowImportingTsExtensions": true,
-    "moduleResolution": "bundler"
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    "lib": ["ESNext"]
   },
   "display": "Bun"
 }
